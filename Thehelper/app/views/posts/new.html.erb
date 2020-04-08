@@ -1,0 +1,21 @@
+
+
+<% if @post.errors.any?%>
+
+<h3> We've got problems! </3>
+<h4> 
+<%= pluralize(@post.errors.count, 'error') %> <
+stopped us from saving the task:
+</h4>
+<ul>
+
+  <% @post.errors.full_messages.each do |msg| %>
+    <li><%= msg %></li>
+  <% end %>
+</ul>
+<% end %>
+
+
+<%= render 'form', post: @post %>
+
+<%= link_to 'Back', posts_path %>

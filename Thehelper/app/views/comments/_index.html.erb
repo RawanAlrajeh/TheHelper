@@ -1,0 +1,18 @@
+
+<div class="comments">
+<% @comments.each do |c| %>
+
+
+<div class="card-header"> 
+<%=c.user.name%> </div>
+ <br>
+ <p class="card-text"> <%=c.content%> 
+
+<% if current_user &&  current_user.admin %>
+ <%= link_to 'X', [c.post , c ], method: :delete, data: { confirm: 'Are you sure?' } %> 
+
+ <%end%>
+</p>
+
+<% end %>
+</div>

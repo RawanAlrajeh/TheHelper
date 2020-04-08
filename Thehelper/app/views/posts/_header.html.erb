@@ -1,0 +1,11 @@
+ <form class="form-inline">
+<%= form_tag(root_path , :method => "get") do %>  
+
+
+    <%= search_field_tag :search, params[:search], placeholder: "Search for Categories " , class:"form-control mr-sm-2" %>  
+
+      <%= button_tag "Search",:name => nil , class:"btn btn-light", class:"btn btn-outline-success my-2 my-sm-0" %>  
+
+
+<% end %>  
+  </form>

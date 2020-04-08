@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The helper</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    
+  </head>
+
+  <body>
+
+<nav  aria-label="breadcrumb" id="nav_bar">   
+
+<ul class="breadcrumb" >
+<li class="breadcrumb-item">
+     <%=  link_to "Home", root_url %>        
+</li>
+   <% if user_signed_in? %>
+
+
+
+<li class="breadcrumb-item">
+  <%= link_to('Sign out', destroy_user_session_path, method: :delete) %> 
+</li>
+
+ <li class="breadcrumb-item">
+            <%= link_to "Inbox", mailbox_inbox_path %>
+</li>
+
+<li class="breadcrumb-item">
+<%= link_to('Pofile', edit_user_registration_path) %>  
+</li>
+        <% else %>
+
+
+<li class="breadcrumb-item">
+       <%= link_to 'Sign up', new_user_registration_path %> </li>  
+</li>
+ 
+<li class="breadcrumb-item">
+       <%= link_to 'Sign in', user_session_path %>  
+</li>
+        <% end %>
+
+  </ul>
+</nav>
+
+<hr>
+
+    <%= yield %>
+  </body>
+</html>

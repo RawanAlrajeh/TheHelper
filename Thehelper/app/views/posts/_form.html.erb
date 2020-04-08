@@ -1,0 +1,40 @@
+
+
+
+
+
+<%= form_with(model: post, local: true) do |form| %>
+   <div class="form-group">
+
+
+
+    <%= form.label :categories %>
+<br>
+    <%= form.select(:categories, [ 'Design', 'Programming' ]) %>
+
+<br>
+  <div>
+
+    <br>
+    <%= form.text_field :title , placeholder:'title ' , class:"form-control mr-sm-0" , class:'title'%>
+  </div>
+<br>
+
+  <div class="form-group shadow-textarea">
+
+    <%= form.text_area :content  , class:"form-control", id:"exampleFormControlTextarea3" , rows:"7" , placeholder:'write your content her'%>
+  </div>
+
+    <div>
+
+    <%= form.file_field :image %>
+      
+    </div>
+
+
+<br>
+  <div class="actions">
+    <%= form.submit%>
+  </div>
+  </div>
+<% end %>

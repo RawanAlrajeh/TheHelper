@@ -1,0 +1,50 @@
+
+
+
+<p>
+  <strong>categories:</strong>
+ 
+  <%= @post.categories %>
+</p>
+
+<form class="card" style="width: 40rem;">
+
+<p>
+  <%= @post.title %>
+</p>
+
+<p>
+  <%=  @post.content %>
+</p>
+
+
+
+  <div class="card-img-top"" > <%= image_tag @post.image if @post.image.attached? %></div> 
+
+<p>
+  <strong>by:</strong>
+  <%= @post.user.name %>
+</p>
+
+<br>
+
+<p  class="card-title">
+ <% if current_user &&  current_user.admin && current_user.id %>
+
+ <%= link_to 'Destroy', @post, method: :delete, data: { confirm: 'Are you sure?' } %> |
+
+<%= link_to 'Edit', edit_post_path(@post) %> |
+<% end %>
+<%= link_to 'Back', posts_path %>
+</p>
+
+<hr>
+
+<h6> <%= @post.comments.count %> coumments </h6>
+
+</form>
+<br>
+
+<%= render 'comments/index'%>
+
+<%= render 'comments/form'%>

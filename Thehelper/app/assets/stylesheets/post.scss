@@ -1,0 +1,123 @@
+// Place all the styles related to the post controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+html,
+.inew_post {
+    font-size: 17px;
+
+}
+
+.header {
+    background-image: url('5.png');
+    // background-repeat: no-repeat;
+    height: 300px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    content: '';
+
+    /* hide shadow behind image */
+    -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.3);
+
+
+    /* one half of the remaining 30% */
+
+}
+
+
+.index_form {
+    border-radius: 10px;
+    border-radius: 15px 50px;
+    justify-content: space-between;
+    width: 300px;
+    height: 200px;
+    word-wrap: break-word;
+    // background-color: #F7F5F7;
+
+    background-image: linear-gradient(to bottom right, #C3C8D9, #E9ECEF);
+    display: inline-table;
+    padding: 25px;
+    margin-top: 10px;
+
+
+}
+
+#index {
+    background-color: black;
+}
+
+.show {
+
+    background-color: #C3D4D9;
+    ;
+    display: inline-table;
+    width: 70%;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+
+}
+
+.card {
+    word-wrap: break-word;
+    background-image: linear-gradient(to bottom right, #C3C8D9, #E9ECEF);
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    border-radius: 15px 50px;
+}
+
+.card-header {
+    background-image: linear-gradient(to bottom right, #C3C8D9, #E9ECEF);
+    display: inline-table;
+    border-radius: 15px 50px;
+    width: 100%;
+}
+
+.card-header1 {
+
+    display: inline-table;
+    width: 50%;
+    padding: 20px;
+    margin: auto;
+}
+
+
+.comments {
+
+    width: 50%;
+    padding: 20px;
+    margin: auto;
+
+}
+
+#inputPassword2 {
+    background-color: #e9ecef;
+
+    width: 300px;
+}
+
+#exampleFormControlTextarea3 {
+    width: 500px;
+}
+
+.new {
+    word-wrap: break-word;
+    // background-color: black;
+    // background-image: linear-gradient(circle, #C3DDE6, #E9ECEF);
+    padding: 20px;
+    margin: auto;
+    width: 50%;
+
+    border-radius: 15px 50px;
+
+}
+
+.title {
+    width: 500px;
+}
