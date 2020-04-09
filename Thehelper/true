@@ -1,0 +1,2 @@
+      invoke  active_record
+      remove    db/migrate/20200409040851_add_index_to_table_name.rb
