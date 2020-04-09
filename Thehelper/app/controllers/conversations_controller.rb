@@ -39,11 +39,6 @@ class ConversationsController < ApplicationController
     redirect_to mailbox_inbox_path
   end
 
-  def destroy
-    @receipts = User.find(params[:user_id])
-    
-  end
-
   private
 
   def message_params

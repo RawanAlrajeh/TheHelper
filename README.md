@@ -1,24 +1,42 @@
-# README
+# final Project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### The Helper:
 
-Things you may want to cover:
+### Techniques used :
 
-* Ruby version
+```python
+- 'Ruby'
+- 'rails'
+- 'PostgreSQL'
+- 'bootstap'
+- 'Visual Studio Code'
+```
 
-* System dependencies
+### wireframes
 
-* Configuration
+![Ux](1.png)
+![Ux](2.png)
+![Ux](3.png)
+![Ux](4.png)
+![Ux](5.png)
 
-* Database creation
+### User stories :
 
-* Database initialization
+```
+- As a user , I sign in and sign out.
+- As a user , I log in.
+- As a user , I edit my profile.
+- As a user , I can add new post .
+- As a user , I add comments on the post .
+- As a user , I can send and receive messages.
+- As a user , I can retrieve messages.
+- As a Admin , I can delete and edit the posts.
+- As a Admin , I can delete the comments.
+```
 
-* How to run the test suite
+### reference :
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+https://github.com/mailboxer/mailboxer
+https://github.com/heartcombo/devise#getting-started
+https://edgeguides.rubyonrails.org/index.html
+https://www.w3schools.com/default.asp

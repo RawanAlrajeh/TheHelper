@@ -21,12 +21,12 @@
 
   <div class="card-img-top"" > <%= image_tag @post.image if @post.image.attached? %></div> 
 
-<p>
-  <strong>by:</strong>
+<br>
+<p class="pshow">
+by:
   <%= @post.user.name %>
 </p>
 
-<br>
 
 <p  class="card-title">
  <% if current_user &&  current_user.admin && current_user.id %>
