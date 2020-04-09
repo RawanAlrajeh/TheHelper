@@ -22,7 +22,7 @@
 
 ### User stories :
 
-```
+```python
 - As a user , I sign in and sign out.
 - As a user , I log in.
 - As a user , I edit my profile.
@@ -34,9 +34,20 @@
 - As a Admin , I can delete the comments.
 ```
 
+### add next :
+
+```ruby
+- The user who created the post can deleted and edit it
+- Delete messages wothout retrieval
+- Unique user
+```
+
 ### reference :
 
-https://github.com/mailboxer/mailboxer
+```python
+- https://github.com/mailboxer/mailboxer
 https://github.com/heartcombo/devise#getting-started
 https://edgeguides.rubyonrails.org/index.html
 https://www.w3schools.com/default.asp
+
+```
