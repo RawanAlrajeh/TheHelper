@@ -33,7 +33,7 @@ And this site enables visitors to view posts and comments.
 - As a Admin , I can delete the comments.
 ```
 
-### Ux
+### UI
 
 ![Ux](1.png)
 ![Ux](2.png)
