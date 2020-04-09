@@ -2,7 +2,7 @@
 
 ### The Helper:
 
-This website allow users registered on the site can add posts according to the classification specified in the site, and they can add comments to posts.
+This website allows users registered on the site can add posts according to the classification specified in the site, and they can add comments to posts.
 
 They can exchange messages with other users.
 
@@ -54,8 +54,8 @@ And this site enables visitors to view posts and comments.
 
 ```python
 - https://github.com/mailboxer/mailboxer
-https://github.com/heartcombo/devise#getting-started
-https://edgeguides.rubyonrails.org/index.html
-https://www.w3schools.com/default.asp
+- https://github.com/heartcombo/devise#getting-started
+- https://edgeguides.rubyonrails.org/index.html
+- https://www.w3schools.com/default.asp
 
 ```
