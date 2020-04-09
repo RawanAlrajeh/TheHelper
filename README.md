@@ -46,9 +46,10 @@ And this site enables visitors to view posts and comments.
 ### Future Work :
 
 ```ruby
-- The user who created the post can deleted and edit it
-- Delete messages wothout retrieval
-- Unique user
+- The user who created the post can deleted and edit it.
+- Add categories to users .
+- Delete messages wothout retrieval .
+- Unique user.
 ```
 
 ### reference :
