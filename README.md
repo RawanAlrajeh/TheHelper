@@ -19,15 +19,6 @@ And this site enables visitors to view posts and comments.
 - 'bootstap'
 - 'Visual Studio Code'
 ```
-
-### wireframes
-
-![Ux](1.png)
-![Ux](2.png)
-![Ux](3.png)
-![Ux](4.png)
-![Ux](5.png)
-
 ### User stories :
 
 ```python
@@ -42,7 +33,17 @@ And this site enables visitors to view posts and comments.
 - As a Admin , I can delete the comments.
 ```
 
-### add next :
+### Ux
+
+![Ux](1.png)
+![Ux](2.png)
+![Ux](3.png)
+![Ux](4.png)
+![Ux](5.png)
+
+
+
+### Future Work :
 
 ```ruby
 - The user who created the post can deleted and edit it
