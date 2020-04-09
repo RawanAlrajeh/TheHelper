@@ -2,6 +2,14 @@
 
 ### The Helper:
 
+Users registered on the site can add posts according to the classification specified in the site, and they can add comments to posts.
+
+They can exchange messages with other users.
+
+Whereas, only the administrator can modify and delete posts and delete comments.
+
+And this site enables visitors to view posts and comments.
+
 ### Techniques used :
 
 ```python
