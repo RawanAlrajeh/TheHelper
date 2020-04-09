@@ -2,7 +2,7 @@
 
 ### The Helper:
 
-Users registered on the site can add posts according to the classification specified in the site, and they can add comments to posts.
+This website allow users registered on the site can add posts according to the classification specified in the site, and they can add comments to posts.
 
 They can exchange messages with other users.
 
